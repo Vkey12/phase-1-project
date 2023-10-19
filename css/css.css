@@ -1,9 +1,39 @@
 #top-bar {
-    background-color: bisque;
-    color:aquamarine;
+    background-color: rgb(90, 66, 55);
+    color:rgb(100, 128, 165);
     font-size: xx-large;
     font-weight: 900;
     padding: 10px;
-    
-
 }
+
+#search-section {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#search-section input {
+    padding:10px 10px;
+    margin: 0px 20px;
+    border: 5px rgb(122, 41, 155);
+    border-radius: 50px;
+}
+#search-section span {
+    background-color: rgb(122, 95, 158);
+    padding: 10px 10px;
+    margin: 0px 20px;
+    color: rgb(58, 30, 30);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#search-section span:hover {
+    background-color: rgb(88, 64, 36);
+}
+#search-section img {
+    height: 2.563rem;
+    width: 2.563rem;
+}
+#search-section img:hover {
+    background-color: rgb(88, 64, 36);
+}
+    

@@ -17,23 +17,45 @@
     border: 5px rgb(122, 41, 155);
     border-radius: 50px;
 }
+
 #search-section span {
     background-color: rgb(122, 95, 158);
     padding: 10px 10px;
     margin: 0px 20px;
     color: rgb(58, 30, 30);
     border-radius: 10px;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
+
 #search-section span:hover {
     background-color: rgb(88, 64, 36);
 }
+
 #search-section img {
-    height: 2.563rem;
+    height: 3.563rem;
     width: 2.563rem;
 }
+
 #search-section img:hover {
     background-color: rgb(88, 64, 36);
 }
-    
+
+#creatures {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a-creature img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.a-creature button {
+    background-color: rgb(102, 100, 99);
+    color:rgb(20, 26, 80);
+    padding: auto;
+    margin: 0px ;
+}
+

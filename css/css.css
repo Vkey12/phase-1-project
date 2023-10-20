@@ -59,3 +59,20 @@
     margin: 0px ;
 }
 
+#pagination {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination button span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#pagination span {
+    font-size: large;
+    font-weight: bold;
+    color: bisque;
+}
